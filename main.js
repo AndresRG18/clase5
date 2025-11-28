@@ -1,2 +1,6 @@
 const app   = require('./app');
-const PORT  = process.env.PORT || 3000;
+
+
+console.log('Iniciando la aplicación...');app.listen(3000, () => {
+    console.log('Servidor escuchando en el puerto 3000');
+});
